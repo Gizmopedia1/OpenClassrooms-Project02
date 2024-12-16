@@ -82,6 +82,33 @@ i {
     font-weight: bold;
   }
 
+  .filtres h3, ul {
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: bold;
+}
+
+.filtres ul {
+    list-style: none;
+
+}
+.filtres i {
+}
+.filtres a {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
