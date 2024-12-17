@@ -16,31 +16,34 @@
         
         <body>
             <div class="main-container">
-                <nav>
-                    <div class="link-nav">
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
-                    </ul>
-                </nav>
-
                 <header>
+                    <nav>
+                        <div class="link-nav">
+                        <ul>
+                            <li><a href="#">Hébergements</a></li>
+                            <li><a href="#">Activités</a></li>
+                        </ul>
+                    </nav>
                     <div class="link-nav">
                     <img src="images/logo/Booki.png">
                     </div>
                     <h2>Trouvez votre hébergement pour des vacances de rêves</h2> 
                     <p>En plein centre-ville ou en pleine nature</p>
-                    <label for=site-search"><i class="fa-solid fa-location-dot"></i></label><input type="search" id="site-search" name="hotel-search"
-placeholder="Marseille, France"><button>Rechercher</button>
-                    <div class="filtres">
-                        <h3>Filtres</h3>
-                        <ul>
-                            <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Economique</a></li>
-                            <li><a href="#"><i class="fa-solid fa-person"></i> Familial</a></li>
-                            <li><a href="#"><i class="fa-solid fa-heart"></i> Romantique</a></li>
-                            <li><a href="#"><i class="fa-solid fa-fire"></i> Nos pépites</a></li>
-                        </ul>
-                     </div>
+                    <div class="recherche">
+                        <div class="recherche-icone"><label for="site-search"><i class="fa-solid fa-location-dot"></i></label></div>
+                        <div class="recherche-champ"><input type="search" id="site-search" name="hotel-search"
+                        placeholder="Marseille, France"></div>
+                        <div class="recherche-bouton"><button>Rechercher</button></div>
+                    </div>
+                        <div class="filtres">
+                            <div class="box-filtres"><h3>Filtres</h3></div>
+                            <div class="box"><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Economique</a></div>
+                            <div class="box"><a href="#"><i class="fa-solid fa-person"></i> Familial</a></div>
+                            <div class="box"><a href="#"><i class="fa-solid fa-heart"></i> Romantique</a></div>
+                            <div class="box"><a href="#"><i class="fa-solid fa-fire"></i> Nos pépites</a></div>
+                        </div>
+
+                    <div class="information-logo"><p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p></div>
                 </header>
 
                 <main>
