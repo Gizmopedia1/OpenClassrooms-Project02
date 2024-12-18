@@ -113,6 +113,7 @@ a {
     .recherche-flex {
         display: flex;
         flex-direction: row;
+        margin-top: 50px;
     }
       
       .recherche-icone {
@@ -189,19 +190,29 @@ background-color: #DEEBFF;
 
     /* FIN Barre de filtres */
 
-.information-logo i {
-    border: 2px solid #F2F2F2;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px;
-}
+    /* Barre d'infos */
+    .infobar {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 30px;
+    }
 
-.information-logo p {
-    vertical-align: middle;
-}
+    .infobar-icon {
+        border: 1px solid #F2F2F2;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .infobar-text {
+        height: 24px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+
+    /* FIN Barre d'infos */
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
