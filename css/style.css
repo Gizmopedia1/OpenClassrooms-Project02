@@ -59,7 +59,7 @@ a {
     color: var(--main-bg-color)
 }
 
-/* Header */
+/********* Header *************/
     /* Barre de navigation */
 
     .barre-nav {
@@ -96,7 +96,7 @@ a {
             border-width: 2px;
             padding-top: 13px;
         }
-            
+/****** Info Group ***********/            
     /* Barre de recherche */
 .recherche {
     display: grid;
