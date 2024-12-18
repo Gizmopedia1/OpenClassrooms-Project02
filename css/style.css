@@ -83,7 +83,6 @@ a {
         .barre-nav img {
             width : 60px;
             padding-top: 30px;
-            padding-left: 50px;
             padding-bottom: 30px;
             padding-right: 50px;
         }
@@ -98,12 +97,6 @@ a {
             padding-top: 13px;
         }
             
-
-.link-nav a {
-    padding: 15px;
-    margin: 25px;
-}
-
     /* Barre de recherche */
 .recherche {
     display: grid;
