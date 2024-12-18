@@ -67,6 +67,7 @@ a {
         width: 100%;
         grid-template-columns: max-content 1fr 1fr max-content max-content;
         grid-column-gap: 70px;
+        margin-bottom: 40px;
         }
         
         .nav1 { 
@@ -96,27 +97,34 @@ a {
             border-width: 2px;
             padding-top: 13px;
         }
-/****** Info Group ***********/            
+/****** Info Group ***********/
+
+.texte-info {
+    line-height: 10px;
+}
     /* Barre de recherche */
 .recherche {
     display: grid;
-    grid-template-columns: 40px 200px 100px;
+    grid-template-columns: 50px 195px 132px;
+    grid-template-rows: 49px;
     gap: 0px;
+    margin-top: 40px;
 }
   
-  .recherche-icone {
-  color: black;
+.recherche-icone {
   background-color: #F2F2F2;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  padding: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   border-style: none;
-  text-align: center;
+  padding-top: 15px;
+  padding-left: 18px;
+  font-size: 18px;
 }
 
 .recherche-champ  {
   color: black;
-  padding: 10px;
+  padding: 0px;
   margin: 0px;
   border: 1px solid #F2F2F2 ;
 }
@@ -126,17 +134,21 @@ input {
   margin: 0px;
   border: 0px ;
   font-weight: bold;
+  font-size: 18px;
+  height: 21px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .recherche-bouton  {
   background-color: #0065FC;
   color: white;
   border-style: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   font-weight: bold;
-  text-align: center;
-  padding: 10px;
+
+  padding: 0px;
   }
 
 button {
@@ -146,6 +158,11 @@ button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   font-weight: bold;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+  padding-right: 16px;
 }
 
     /* Barre de filtres */
