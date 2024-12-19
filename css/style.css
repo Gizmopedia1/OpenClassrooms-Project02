@@ -63,42 +63,40 @@ a {
 
 /********* Header *************/
     /* Barre de navigation */
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    } 
+    
+    .container-nav-links {
+        display: flex;
+        gap: 65px;
+    } 
+    
+    .nav-logo {
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .nav-logo img {
+        width: 61px;
+    }
 
-    .barre-nav {
-        display: grid;
-        width: 100%;
-        grid-template-columns: max-content 1fr 1fr max-content max-content;
-        grid-column-gap: 70px;
-        margin-bottom: 40px;
-        }
-        
-        .nav1 { 
-            grid-area: 1 / 1; 
-        }
-        .nav2         { 
-            grid-area: 1 / 5;
-            border: 2px solid transparent;
-            padding-top: 15px;
-        }
-        .nav3 { 
-            grid-area: 1 / 6; 
-            border: 2px solid transparent;
-            padding-top: 15px;
-        }
-        .barre-nav img {
-            width : 60px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            padding-right: 50px;
-        }
+    .nav-links {
+        font-size: 16px;
+        padding-top: 15px;
+        border-top: 2px solid transparent;
+    }
+    
+    .nav-links a:hover {
+        color:#0065FC;
+        padding-top: 15px;
+        border-top: 2px solid #0065FC;
+    }
 
-        .barre-nav a {
-        }
-
-        .nav2:hover, .nav3:hover {
-            color:#0065FC;
-            border-top: 2px solid #0065FC;
-        }
 /****** Info Group ***********/
 
 .texte-info h1 {
