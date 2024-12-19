@@ -117,11 +117,14 @@ a {
       
       .recherche-icone {
       background-color: #F2F2F2;
-      height: 50px;
-      width: 50px;
+      font-size: 18px;
       border-top-left-radius: 15px;
       border-bottom-left-radius: 15px;
       border-style: none;
+      padding-top: 15px;
+      padding-left: 18px;
+      padding-bottom: 14px;
+      padding-right: 18px;
       text-align: center;
     }
     
@@ -196,7 +199,7 @@ background-color: #DEEBFF;
         margin-bottom: 30px;
         align-items: center;
     }
-    
+
     .infobar-icon {
         font-size: 10px;
         border: 1px solid #F2F2F2;
