@@ -189,27 +189,29 @@ background-color: #DEEBFF;
 
     /* FIN Barre de filtres */
 
-    /* Barre d'infos */
+
+    /* Barre d'infos     align-items: baseline; */
     .infobar {
         display: flex;
-        align-items: baseline;
         margin-bottom: 30px;
+        align-items: center;
     }
-
+    
     .infobar-icon {
+        font-size: 10px;
         border: 1px solid #F2F2F2;
-        width: 24px;
-        height: 24px;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 7px;
+        padding-right: 10px;
         border-radius: 50%;
         text-align: center;
     }
 
     .infobar-text {
-        height: 24px;
+        font-size: 16px;
         margin-left: 10px;
-        text-align: left;
     }
-
 
     /* FIN Barre d'infos */
 
