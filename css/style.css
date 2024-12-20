@@ -66,6 +66,7 @@ a {
     
     .nav {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 25px;
     } 
@@ -98,15 +99,19 @@ a {
     }
 
 /****** Info Group ***********/
+    /* Headline */
 
-.texte-info h1 {
-    height: 10px;
+.headline-flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.headline h1 {
     font-size: 22px;
 }
 
-.texte-info p {
-    margin-top: 25px;
-}
+    /* FIN Headline */
 
     /* Barre de recherche */
     .recherche-flex {
@@ -170,9 +175,13 @@ a {
 }
 
 .filtres-flex i {
-    padding-left: 20px;
     padding-right: 5px;
 }
+
+.container-box-filtres {
+    display: flex;
+} 
+
 .box-filtres {
     font-weight: bold;
     font-size: 17px;
@@ -183,6 +192,7 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
     padding-right: 20px
 }
 
@@ -234,6 +244,48 @@ background-color: #DEEBFF;
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+    align-items: center;
+}
+
+.hebergements-cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 210px;
+    margin-top: 50px;
+}
+
+.hebergements-cards {
+    width: 250px;
+    height: 205px;
+}
+
+.hebergements-cards img {
+    width: 240px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+
+}
+
+.hebergements-cards h3 {
+    font-size: 16px;
+}
+
+.hebergements-cards p {
+    font-size: 14px;
+}
+
+.hebergements-card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 /****** Populaires ***********/
@@ -321,7 +373,34 @@ background-color: #DEEBFF;
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Small devices (phones, less than 400px) */
+@media (max-width: 400px) {
     /* ... */
+    .nav {
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .filtres-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        align-items: baseline;
+    } 
+    
+    .container-box-filtres {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    .box-filtres {
+        height: 50px;
+        width: 162.5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 19px;
+        padding-right: 19px
+    }
 }
