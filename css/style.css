@@ -27,6 +27,9 @@ body {
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 22px;
+}
 
 a {
     color: inherit;
@@ -253,14 +256,6 @@ background-color: #DEEBFF;
     justify-content: space-between;
 }
 
-.hebergements-title h2 {
-    font-size: 22px;
-}
-
-.hebergements-subtitle h3 {
-    font-size: 18px;
-}
-
 .hebergements-cards-flex {
     display: flex;
     flex-wrap: wrap;
@@ -302,6 +297,10 @@ background-color: #DEEBFF;
     margin-bottom: 0px;
     margin-top: 0px;
 
+}
+
+.hebergements h3 {
+    font-size: 18px;
 }
 
 .hebergements-card-content {
