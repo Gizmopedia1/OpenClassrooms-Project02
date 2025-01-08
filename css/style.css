@@ -245,7 +245,7 @@ background-color: #DEEBFF;
     /* FIN Barre de filtres */
 
 
-    /* Barre d'infos     align-items: baseline; */
+    /* Barre d'infos*/
     .infobar {
         display: flex;
         margin-bottom: 30px;
