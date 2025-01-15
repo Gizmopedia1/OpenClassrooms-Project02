@@ -209,9 +209,10 @@ a {
     align-items: baseline;
 } 
 
-.filtres h2 {
+.filtres label {
     text-align: left;
     font-size: 18px;
+    font-weight: bold;
     margin-right: 15px;
 }
 
@@ -329,8 +330,9 @@ background-color: #DEEBFF;
     box-sizing: border-box;
 }
 
-.hebergements-cards h4 {
+.hebergements-cards h3 {
     font-size: 16px;
+    font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -340,10 +342,6 @@ background-color: #DEEBFF;
     margin-bottom: 0px;
     margin-top: 0px;
 
-}
-
-.hebergements h3 {
-    font-size: 18px;
 }
 
 .hebergements-card-content {
@@ -453,9 +451,10 @@ background-color: #DEEBFF;
     box-sizing: border-box;
 }
 
-.activities-cards h4 {
+.activities-cards h3 {
     padding: 20px;
     font-size: 16px;
+    font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px;
     box-sizing: border-box;
@@ -483,8 +482,9 @@ background-color: #DEEBFF;
     gap: 19px;
 }
 
-.footer-title h3 {
+.footer-title p {
     font-size: 18px;
+    font-weight: bold;
     margin: 0px;
 }
 
